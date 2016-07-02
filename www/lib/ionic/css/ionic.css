@@ -9728,4 +9728,62 @@ a.button {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
-/*************** Tab ***********************/
+/*************** Contenedores Restaurantes ***********************/
+
+.contenedor_inicio{
+
+  margin-top: 20%;
+  min-width: 50%;
+  min-height: 20%;
+  background-color: rgba(0, 0, 0, 0.5);
+  
+}
+
+.Titulo{
+
+ 
+  color: white;
+}
+
+.contenedor_Imagen{
+  
+  
+  width: 40%;
+  height: 60%;
+  padding: 5% 0;
+  float: left;
+ 
+
+
+}
+
+.contenedor_Derecho{
+  
+  width: 60%;
+  float: left;
+
+
+}
+
+.Parrafo{
+  color: white;
+}
+
+.contenedor_Abajo{
+
+  width: 85%; 
+  height: 50%;
+  margin-left: 30px;
+
+}
+
+/*************** Contenedores menuRest ***********************/
+
+.Contenedor_menuRest{
+
+  margin-top: 5%;
+  min-width: 50%;
+  min-height: 20%;
+  background-color: rgba(0, 0, 0, 0.5);
+  
+}

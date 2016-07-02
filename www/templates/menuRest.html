@@ -1,17 +1,25 @@
 <ion-view title="MenuRest" hide-nav-bar="true" id="page12" class=" ">
-    <ion-content padding="false" style="background: url(img/fondomenuBar.png) no-repeat center;background-size:cover;" class=" manual-remove-top-padding">
-        <div class="spacer" style="width: 300px; height: 40px;"></div>
-        <div class="">
-            <img src="img/2nC3PjRCQTOIpNpNLGFu_minifondo.png" width="90%" height="auto" style="display: block; margin-left: auto; margin-right: auto;">
+    <ion-content padding="false" style="background: url(img/fonresReserva.png) no-repeat center;background-size:cover;" class=" manual-remove-top-padding" scroll="false">
+        <div id="menuRest-button-bar16" class=" button-bar ">
+            <a ui-sref="inicio" id="menuRest-button67" class=" button button-positive  button-block button-clear "></a>
+            <a ui-sref="perfil" id="menuRest-button69" style="color:#FFFFFF;" class=" button button-positive  button-block button-clear icon-right ion-android-menu "></a>
         </div>
+
+        <div class="Contenedor_menuRest">
+
+            <div class="contenedor_Imagen">
+                <img class="Imagen" src="img/pasta.jpg" width="90%" height="auto" style="display: block; margin-left: auto; margin-right: auto;">
+            </div>
         <div id="menuRest-button-bar9" class=" button-bar ">
             <button id="menuRest-button43" style="font-style:italic;color:#FFFFFF;font-size:10px;" class=" button button-light  button-block button-clear icon ion-android-cart ">Incluir en la Reserva</button>
             <button id="menuRest-button44" style="font-style:italic;color:#FFFFFF;font-size:10px;" class=" button button-light  button-block button-clear icon ion-ios-telephone ">Domicilios</button>
         </div>
-        <a ui-sref="reservaRes_conAlimentos" id="menuRest-button94" class=" button button-positive  button-block ">IR A RESERVAS</a>
+        <a ui-sref="reservaRes_conAlimentos" id="menuRest-button94" class=" button button-energized  button-block ">IR A RESERVAS</a>
+
+        </div>
 
 
-        <!-- Menu Header -->
+         <!-- Menu Header -->
         <div class="bar bar-header" >
   
             <div class="h1 title" id="header">JoyWK</div>
@@ -32,6 +40,7 @@
             <ion-nav-view name="inicio"></ion-nav-view>
         </ion-tab>
         </ion-tabs>
+
 
     </ion-content>
 </ion-view>
