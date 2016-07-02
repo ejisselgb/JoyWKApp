@@ -1,2 +1,0 @@
-# JoyWKApp
-Aplicación JoyWK
