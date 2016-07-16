@@ -1,6 +1,20 @@
 angular.module('app.controllers', [])
   
 .controller('inicioSesionCtrl', function($scope) {
+	/*$scope.login = function(){
+		//alert("Helloo");
+		var ref = new Firebase("https://joywkbd.firebaseio.com/");
+		var authObject = $firebaseAuth(ref);
+
+		authObject.$authWithOAuthPopup('facebook').then(function(authData){
+			console.log(authData);
+		}).catch(function(error){
+
+			console.log('Error' + error);
+
+		})
+		
+	}*/
 
 })
    
