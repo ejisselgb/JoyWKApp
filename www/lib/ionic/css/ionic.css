@@ -9733,9 +9733,10 @@ a.button {
 .contenedor_inicio{
 
   margin-top: 20%;
-  min-width: 50%;
   min-height: 20%;
   background-color: rgba(0, 0, 0, 0.5);
+  width: 90%;
+  margin-left: 5%;
   
 }
 
@@ -9771,9 +9772,9 @@ a.button {
 
 .contenedor_Abajo{
 
-  width: 85%; 
   height: 50%;
-  margin-left: 30px;
+  width: 99%;
+  margin-left: 2%;
 
 }
 
@@ -9786,4 +9787,318 @@ a.button {
   min-height: 20%;
   background-color: rgba(0, 0, 0, 0.5);
   
+}
+
+/************************************ Inicio ******************/
+
+#inicioSesion-input20{
+
+    width: 300px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+#inicioSesion-input21{
+      width: 300px;
+      height: 40px;
+      margin-left: 50px;
+
+}
+
+#inicioSesion-button4{
+
+    width: 200px;
+    margin-left: 100px;
+}
+
+/*********************** Registro ************************/
+
+#registro-input16{
+
+    width: 300px;
+    margin-left: 50px;
+    height: 35px;
+}
+
+#registro-input17{
+ 
+    width: 300px;
+    margin-left: 50px;
+    height: 35px;
+
+}
+
+#registro-input18{
+
+    width: 300px;
+    margin-left: 50px;
+    height: 35px;
+}
+
+#registro-input19{
+
+    width: 300px;
+    margin-left: 50px;
+    height: 35px;
+
+}
+
+#registro-button3{
+
+    width: 220px;
+    margin-left: 90px;
+
+}
+
+#registro-button5{
+
+    width: 220px;
+    margin-left: 90px;
+}
+
+/**************** Reserva Res *****************/
+
+.contenedor_inicio_res{
+
+  margin-top: 20%;
+  min-height: 30%;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-left: 2%;
+  width: 95%;
+  
+}
+
+.Titulo{
+
+ 
+  color: white;
+}
+
+.contenedor_Imagen_res{
+  
+  
+  width: 90%;
+  height: 100%;
+  padding: 5% 0;
+
+}
+
+.contenedor_Derecho_res{
+  
+  width: 60%;
+  margin-left: 20%;
+}
+
+.Parrafo{
+  color: white;
+}
+
+.contenedor_Abajo_res{
+
+  width: 85%; 
+  height: 50%;
+  margin-left: 8%;
+  margin-top: 2%;
+}
+
+.item-checkbox{
+    width: 100%;
+    height: 38px;
+
+}
+
+
+.item-input {
+
+    width: 100%;
+    height: 35px;
+
+
+}
+
+.contenedor_btn{
+
+
+}
+
+#image_reser{
+  width: 70%;
+}
+
+.contenedor_Imagen_res2{
+  
+  
+  width: 90%;
+  height: 100%;
+  padding: 5% 0;
+
+}
+
+#image_reser2{
+  width: 70%;
+
+}
+/************************* Inicio Sesion *****************************/
+
+
+.contenedor_inicio_sesion{
+
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-top: 40%;
+  width: 90%;
+  margin-left: 5%;
+
+
+}
+
+.contenedor_Imagen_sesion{
+
+    width: 80%;
+    padding: 2%;
+    margin-left: 2%;
+
+}
+
+.contenedor_abajo_sesion{
+
+
+  width: 80%;
+  margin-left: 10%;
+
+}
+
+#inicioSesion-input20{
+    width: 84%;
+    margin-left: 10%;
+
+}
+
+#inicioSesion-input21{
+
+    width: 84%;
+    margin-left: 10%;
+}
+
+#inicioSesion-button4{
+
+    margin-left: 10%;
+    width: 84%;
+}
+
+#image_reser{
+
+      margin-left: 30%;
+}
+
+#registro-button5{
+  margin-left: 10%;
+  width: 84%;
+}
+
+.contenedor_botones{
+ 
+     margin-top: 8%;
+}
+
+#text_registro{
+
+  color:white;
+  font-family: "Champagne & Limousines";
+}
+
+/**************** Registro ***********************/
+
+#registro-input16{
+    width: 87%;
+    margin-left: 8%;
+}
+
+#registro-input17{
+
+    width: 87%;
+    margin-left: 8%;
+}
+
+
+
+#registro-input18{
+   
+    width: 87%;
+    margin-left: 8%;
+}
+
+#registro-input19{
+
+    width: 87%;
+    margin-left: 8%;
+}
+
+#registro-button3{
+
+   margin-left: 10%;
+    width: 84%;
+}
+
+.text_registro2{
+
+
+  color: white;
+  margin-left: 4%;
+  font-family: "Champagne & Limousines";
+}
+
+/**************** Inicio *******************/
+
+#image_inicio{
+
+    margin-left: 2%;
+    width: 45%;
+}
+
+#menuBar-button99{
+
+    width: 50%;
+    margin-left: 25%;
+}
+
+/************************** Perfil *****************/
+
+
+.descripcion_card{
+   
+   background-color: rgba(0,0,0,0.5);
+   width: 94%;
+   margin-left: 3%;
+
+}
+
+.card{
+
+  margin-top: 20%;
+  height: 20%;
+
+}
+
+#menuBar-button97{
+
+  margin-left: 30%;
+  margin-top: -2%;
+}
+
+.texto_perfil{
+
+  color:white;
+}
+
+.contenedor_Imagen_perfil{
+
+  width: 80%;
+  margin-left: 10%;
+}
+
+.texto_perfil{
+
+  font-size: 110%;
+  margin-left: 15%;
 }

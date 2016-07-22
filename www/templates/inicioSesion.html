@@ -1,7 +1,15 @@
 <ion-view title="InicioSesion" hide-nav-bar="true" id="page2" class=" ">
-    <ion-content padding="false" style="background: url(img/JNxvah5IT36angvi6EHo_fondojw.png) no-repeat center;background-size:cover;" class=" manual-remove-top-padding" scroll="false">
+    <ion-content padding="false" style="background: url(img/fondo_inicio_joyWK.png) no-repeat center;background-size:cover;" class=" manual-remove-top-padding" scroll="false">
+
+    <div class="contenedor_inicio_sesion">
+
+         <div class="contenedor_Imagen_sesion">
+            <img id="image_reser"src="img/logo.png" width="50%" height="auto" style="display: block; margin-left: 28%; margin-right: auto;">
+        </div>
+
+        <div class = "contenedor_abajo_sesion">
+
         <form id="inicioSesion-form17" class="list ">
-            <div class="spacer" style="width: 320px; height: 160px;"></div>
             <label class="item item-input " id="inicioSesion-input20" name="txtnombre">
                 <input type="text" placeholder="Nombre de Usuario">
             </label>
@@ -13,25 +21,25 @@
             <div>
                 <center>
                     <p>
-                        <font color="white">¿Olvidaste tu cuenta?</font>
+                         <a href="http://localhost:8100/#/page3" id="text_registro">¿Olvidaste tu cuenta?</a>
                     </p>
                 </center>
             </div>
-            <a ui-sref="inicio" id="inicioSesion-button4" style="color:#000000;" class=" button button-energized  button-block ">INICIAR SESIÓN</a>
+            <div class="contenedor_botones">
+            <a ui-sref="inicio" id="inicioSesion-button4" style="color:#000000;" class=" button button-energized  button-block ">Iniciar Sesión</a>
+            <a href="#" onclick="window.open('http://www.facebook.com/', '_system', 'location=yes'); return false;" id="registro-button5" style="color:#000000;" class=" button button-energized  button-block icon ion-social-facebook "> Iniciar con Facebook</a>
+            </div>
             <div>
                 <center>
-                    <p>
+                    <p >
                         <font color="white">¿No tienes cuenta?</font>
-                        <a href="Registro - /page3">REGISTRATE AQUÍ</a>
+                        <a href="http://localhost:8100/#/page3" id="text_registro">REGISTRATE AQUÍ</a>
+                        
                     </p>
                 </center>
             </div>
-            <div>
-                <p>
-
-                </p>
-                <button class="button button-block" ng-click="login()"> Login </button>
-            </div>
         </form>
+        </div>
+        </div>
     </ion-content>
 </ion-view>
