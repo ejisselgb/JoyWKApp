@@ -1,6 +1,12 @@
-angular.module('app.controllers', [])
+angular.module('app.controllers', ['ionic'])
   
-.controller('inicioSesionCtrl', function($scope) {
+.controller('inicioSesionCtrl', function($scope,$ionicSideMenuDelegate) {
+
+
+		  $scope.toggleLeft = function() {
+    	  $ionicSideMenuDelegate.toggleLeft();
+    	  print("funciona");
+  };
 	/*$scope.login = function(){
 		//alert("Helloo");
 		var ref = new Firebase("https://joywkbd.firebaseio.com/");
@@ -17,6 +23,7 @@ angular.module('app.controllers', [])
 	}*/
 
 })
+
    
 .controller('registroCtrl', function($scope) {
 
@@ -61,4 +68,4 @@ angular.module('app.controllers', [])
 .controller('reservaBarCtrl', function($scope) {
 
 })
- 
+

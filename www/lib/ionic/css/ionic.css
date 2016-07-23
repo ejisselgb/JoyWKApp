@@ -10100,5 +10100,32 @@ a.button {
 .texto_perfil{
 
   font-size: 110%;
-  margin-left: 15%;
+  margin-left: 25%;
+  font-family: "Champagne & Limousines";
 }
+
+.contenedor_botoncitos1{
+
+
+    width: 50%;
+    padding: 2%;
+
+}
+
+.contenedor_botoncitos2{
+
+  
+    width: 50%;
+    margin-left: 50%;
+    padding: 2%;
+    margin-top: -60%;
+}
+
+
+
+/**************** Header ***********/
+.title{
+
+text-decoration:none;   
+}
+

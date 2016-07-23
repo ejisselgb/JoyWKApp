@@ -1,31 +1,29 @@
+
 <ion-view title="Restaurantes" hide-nav-bar="true" id="page5" class=" ">
     <ion-content padding="false" style="background: url(img/fondoRetaurante.png) no-repeat center;background-size:cover;" class="manual-ios-statusbar-padding" scroll="false">
-      <div class ="contenedor_inicio">
-        <div class="contenedor_Imagen">
-                <img class="Imagen" src="img/crepesW.jpg" width="90%" height="auto" style="display: block; margin-left: auto; margin-right: auto;">
-            </div>
 
-            <div class="contenedor_Derecho">
-                <div class="contenedor_texto">
-                <center><h4 class="Titulo">Crepes & Waffles</h4></center> 
-                <center> <p class="Parrafo">Comida y Helados</p></center>
-                </div>      
-            </div>
-            <div class ="contenedor_Abajo">
-        <div id="restaurantes-button-bar3" class=" button-bar ">
-            <a ui-sref="reservaRes" id="restaurantes-button18" style="font-style:italic;color:#FFFFFF;font-size:10px;" class=" button button-light  button-block button-clear icon ion-calendar "> Reservar</a>
-            <button id="restaurantes-button19" style="font-style:italic;color:#FFFFFF;font-size:10px;" class=" button button-light  button-block button-clear icon ion-ios-telephone "> Domicilios</button>
-            <a ui-sref="menuRest" id="restaurantes-button20" style="color:#FFFFFF;font-size:10px;" class=" button button-positive  button-block button-clear icon ion-fork "> Menu</a>
-        </div>
+
+        <div class ="contenedor_inicio">
+         
+            <div class="contenedor_botoncitos1">
+            <a id="boton_comida_Izq" class=" button button-energized  button-block " style="color:#000000;">Árabe</a>
+            <a id="boton_comida_Izq" class=" button button-energized  button-block " style="color:#000000;">China</a>
+            <a id="boton_comida_Izq" class=" button button-energized  button-block " style="color:#000000;">Méxicana</a>
+         </div>
+         <div class="contenedor_botoncitos2">
+            <a id="boton_comida_Der" class=" button button-energized  button-block " style="color:#000000;">Italiana</a>
+            <a id="boton_comida_Der" class=" button button-energized  button-block" style="color:#000000;">Francesa</a>
+            <a id="boton_comida_Der" class=" button button-energized  button-block" style="color:#000000;">Americana</a>
+
+         </div>
      </div>
-     </div>
+      
+
         <!-- Menu Header -->
-        <div class="bar bar-header" >
-  
-            <div class="h1 title" id="header">JoyWK</div>
-            <button class="button button-icon icon ion-navicon" ui-sref = "inicio"></button>
-        </div>
-        
+        <div class="bar bar-header" >           
+                    <button class="button button-icon icon ion-navicon" menu-toggle="left"></button>
+                <a ui-sref="inicio" class="h1 title" id="header">JoyWK</a>
+                </div>
         <ion-tabs  class = "tabs-icon-top" id="footertab"> 
         
          <ion-tab icon-off="ion-android-restaurant" icon-on="ion-android-restaurant" ui-sref = "restaurantes">
@@ -43,3 +41,5 @@
 
     </ion-content>
 </ion-view>
+
+
