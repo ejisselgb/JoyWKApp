@@ -3,25 +3,21 @@
     <ion-content padding="false" style="background: url(img/fondoRetaurante.png) no-repeat center;background-size:cover;" class="manual-ios-statusbar-padding" scroll="false">
 
 
-        <div class ="contenedor_inicio">
-         
-            <div class="contenedor_botoncitos1">
-            <a id="boton_comida_Izq" class=" button button-energized  button-block " style="color:#000000;">Árabe</a>
-            <a id="boton_comida_Izq" class=" button button-energized  button-block " style="color:#000000;">China</a>
-            <a id="boton_comida_Izq" class=" button button-energized  button-block " style="color:#000000;">Méxicana</a>
-         </div>
-         <div class="contenedor_botoncitos2">
-            <a id="boton_comida_Der" class=" button button-energized  button-block " style="color:#000000;">Italiana</a>
-            <a id="boton_comida_Der" class=" button button-energized  button-block" style="color:#000000;">Francesa</a>
-            <a id="boton_comida_Der" class=" button button-energized  button-block" style="color:#000000;">Americana</a>
+        <div class ="contenedor_inicio_res2">
+            <P id="tex_sel_res">Selecciona el tipo de restaurante </P>
+            <p id="tex_sel_res2">que mas te llame la atención</p>
 
-         </div>
+         <div id="botones_res2">
+            <a id="boton_comida_Izq" class=" button button-energized  button-block " style="color:#000000;" ui-sref="menuRest">Árabe</a>
+            <a id="boton_comida_Izq" class=" button button-energized  button-block " style="color:#000000;" ui-sref="MenuRest">Chino</a>
+            <a id="boton_comida_Izq" class=" button button-energized  button-block " style="color:#000000;" ui-sref="MenuRest">Méxicano</a>    
+       </div>
      </div>
-      
+       
 
         <!-- Menu Header -->
         <div class="bar bar-header" >           
-                    <button class="button button-icon icon ion-navicon" menu-toggle="left"></button>
+                <button class="button button-icon icon ion-navicon" menu-toggle="left"></button>
                 <a ui-sref="inicio" class="h1 title" id="header">JoyWK</a>
                 </div>
         <ion-tabs  class = "tabs-icon-top" id="footertab"> 
@@ -41,5 +37,7 @@
 
     </ion-content>
 </ion-view>
+
+
 
 

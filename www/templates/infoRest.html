@@ -1,0 +1,61 @@
+<ion-view title="InfoRest" hide-nav-bar="true" id="page21" class=" ">
+    <ion-content padding="false" style="background: url(img/fonresReserva.png) no-repeat center;background-size:cover;" class=" manual-remove-top-padding" scroll="false">
+      
+
+        <div class ="contenedor_inicio_info">
+
+            <div class="contenedor_Derecho_info">
+                <div class="contenedor_texto">
+                <center><h4 class="Titulo">Nombre del Restaurante</h4></center> 
+                <center> <p class="Parrafo">Informacion del restaurante</p></center>
+                </div>      
+            </div>
+        <div class="contenedor_Imagen_info">
+                <img class="Imagen" src="img/pasta.jpg" width="90%" height="auto" style="display: block; margin-left: auto; margin-right: auto;">
+            </div>
+
+            <div class ="contenedor_Abajo_info">
+        <div id="menuRest-button-bar9" class=" button-bar ">
+            <div id="btn1">
+            <button id="menuRest-button43" style="font-style:italic;color:#FFFFFF;font-size:10px;" class=" button button-light  button-block button-clear icon ion-android-star "></button>
+            </div>
+            <div id="btn2">
+            <button id="menuRest-button44" style="font-style:italic;color:#FFFFFF;font-size:10px;" class=" button button-light  button-block button-clear icon ion-android-star-half "></button>
+            </div>
+            <div id="btn3">
+            <button id="menuRest-button45" style="font-style:italic;color:#FFFFFF;font-size:10px;" class=" button button-light  button-block button-clear icon ion-android-star-outline "></button>
+            </div>
+            <div id="btn4">
+            <button id="menuRest-button45" style="font-style:italic;color:#FFFFFF;font-size:10px;" class=" button button-light  button-block button-clear icon ion-chatbubble "></button>
+            </div>
+        </div>
+        <a ui-sref="menuRest2" id="menuRest-ver" class=" button button-energized  button-block "style="color:black">Ver Menu</a>
+     </div>
+     </div>
+
+
+         <!-- Menu Header -->
+        <div class="bar bar-header" >
+  
+            <button class="button button-icon icon ion-navicon" menu-toggle="left"></button>
+            <a ui-sref="inicio" class="h1 title" id="header">JoyWK</a>
+        </div>
+        
+        <ion-tabs  class = "tabs-icon-top" id="footertab"> 
+        
+         <ion-tab icon-off="ion-android-restaurant" icon-on="ion-android-restaurant" ui-sref = "restaurantes">
+            <ion-nav-view name="restaurantes"></ion-nav-view>
+        </ion-tab>
+
+        <ion-tab icon-off="ion-wineglass" icon-on="ion-wineglass" ui-sref ="bar">
+            <ion-nav-view name="bar"></ion-nav-view>
+        </ion-tab>
+
+        <ion-tab icon-off="ion-android-star" icon-on="ion-android-star" ui-sref ="eventos">
+            <ion-nav-view name="inicio"></ion-nav-view>
+        </ion-tab>
+        </ion-tabs>
+
+
+    </ion-content>
+</ion-view>

@@ -9753,17 +9753,12 @@ a.button {
   height: 60%;
   padding: 5% 0;
   float: left;
- 
-
-
 }
 
 .contenedor_Derecho{
   
   width: 60%;
   float: left;
-
-
 }
 
 .Parrafo{
@@ -9775,7 +9770,6 @@ a.button {
   height: 50%;
   width: 99%;
   margin-left: 2%;
-
 }
 
 /*************** Contenedores menuRest ***********************/
@@ -10058,8 +10052,8 @@ a.button {
 
 #menuBar-button99{
 
-    width: 50%;
-    margin-left: 25%;
+    width: 65%;
+    margin-left: 20%;
 }
 
 /************************** Perfil *****************/
@@ -10104,24 +10098,6 @@ a.button {
   font-family: "Champagne & Limousines";
 }
 
-.contenedor_botoncitos1{
-
-
-    width: 50%;
-    padding: 2%;
-
-}
-
-.contenedor_botoncitos2{
-
-  
-    width: 50%;
-    margin-left: 50%;
-    padding: 2%;
-    margin-top: -60%;
-}
-
-
 
 /**************** Header ***********/
 .title{
@@ -10129,3 +10105,116 @@ a.button {
 text-decoration:none;   
 }
 
+#tex_sel_res{
+
+  color:white;
+  font-family: "Champagne & Limousines";
+  margin-left: 23%;
+}
+
+#tex_sel_res2{
+
+  color:white;
+  font-family: "Champagne & Limousines";
+  margin-left: 27%;
+  margin-top: -2%;
+}
+
+#menuRest-button94{
+
+  width: 40%;
+  margin-left: 27%;
+  margin-top: -2%;
+}
+
+.contenedor_inicio_info{
+
+  margin-top: 20%;
+  min-height: 20%;
+  background-color: rgba(0,0,0,0.5);
+  width: 90%;
+  margin-left: 5%;
+  padding: 1%;
+
+  
+}
+
+.contenedor_Imagen_info{
+  
+  
+  width: 100%;
+  height: 60%;
+  padding: 5% 0;
+}
+
+.contenedor_Derecho_info{
+  
+  width: 60%;
+  margin-left: 22%;
+}
+
+.contenedor_Abajo_info{
+
+  height: 50%;
+  width: 99%;
+  margin-left: 2%;
+  
+}
+
+#btn1{
+
+}
+
+#btn2{
+
+ margin-left: -5%;
+}
+
+#btn3{
+  margin-left: -5%;
+}
+
+#btn4{
+  margin-left: 40%;
+
+}
+
+#btn1_menuR{
+  
+  margin-left: 5%;
+}
+
+#btn2_menuR{
+
+  margin-left: 15%;
+  
+}
+
+#menuRest-ver{
+
+  width: 40%;
+  margin-left: 28%;
+}
+
+.contenedor_inicio_res2{
+
+  margin-top: 20%;
+  min-height: 30%;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 90%;
+  margin-left: 5%;
+  
+}
+
+
+#botones_res2{
+
+  padding: 2%;
+  width: 50%;
+  margin-left: 27%;
+}
+
+.ion-record{
+
+      color: white;
+}

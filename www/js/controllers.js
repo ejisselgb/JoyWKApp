@@ -44,6 +44,14 @@ angular.module('app.controllers', ['ionic'])
 .controller('menuRestCtrl', function($scope) {
 
 })
+
+.controller('menuRest2Ctrl', function($scope) {
+
+})
+
+.controller('infoRestCtrl', function($scope) {
+
+})
    
 .controller('menuBarCtrl', function($scope) {
 

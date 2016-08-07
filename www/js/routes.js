@@ -46,6 +46,18 @@ angular.module('app.routes', [])
     controller: 'menuRestCtrl'
   })
 
+  .state('menuRest2', {
+    url: '/page20',
+    templateUrl: 'templates/menuRest2.html',
+    controller: 'menuRest2Ctrl'
+  })
+
+  .state('infoRest', {
+    url: '/page21',
+    templateUrl: 'templates/infoRest.html',
+    controller: 'infoRestCtrl'
+  })
+
   .state('menuBar', {
     url: '/page16',
     templateUrl: 'templates/menuBar.html',
